@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Product set",
+    "type": "object",
+    "items": {
+        "title": "Product",
+        "type": "object",
+        "properties": {
+            "ability": {
+                "type": "string"
+            },
+            "berry": {
+                "type": "string"
+            },
+            "berry-firmness": {
+                "type": "string"
+            },
+            "berry-flavor": {
+                "type": "string"
+            },
+            "characteristic": {
+                "type": "string"
+            },
+            "contest-effect": {
+                "type": "string"
+            }
+        },
+        "required": ["ability", "berry-firmness", "berry-flavor", "characteristic", "contest-effect"]
+    }
+}
